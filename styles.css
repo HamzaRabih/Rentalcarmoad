@@ -1,0 +1,15 @@
+
+/* Uniformiser la taille des images des cartes */
+.card-img-top {
+    height: 200px; /* Hauteur fixe pour toutes les images */
+    object-fit: cover; /* Ajuste l'image pour remplir l'espace sans déformation */
+    width: 100%; /* Assure que l'image occupe toute la largeur */
+}
+
+/* Assure que toutes les cartes ont la même hauteur */
+.card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
